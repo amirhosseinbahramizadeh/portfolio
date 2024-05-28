@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col bg-white">
+    <div class="fixed -bottom-1/3 left-0 right-0 z-0">
+        <img class="w-full rotate-180" src="./cloud.jpg" alt="cool kids avatar">
+    </div>
+    <nav
+        class="text-blue-600 font-semibold lg:w-3/4 w-full mx-auto relative flex flex-nowrap items-center justify-between py-2">
+        <div class="flex w-full flex-wrap items-center justify-between px-3">
+            <div class="sm:w-3/4 px-3 mx-auto mt-2 flex justify-between items-center">
+                <div class="flex items-center">
+                    <span>
+                        <img class="w-10" src="./cool_kids_avatar.svg" alt="cool kids avatar">
+                    </span>
+                    <span class="ml-2">
+                        Azadeh Sadeghian
+                    </span>
+                </div>
+                <ul class="flex">
+                    <li>
+                        <a class="lg:px-2">Projects</a>
+                    </li>
+                    <li class="ml-2">
+                        <a class="lg:px-2">About me</a>
+                    </li>
+                    <li class="ml-2">
+                        <a class="lg:px-2">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="z-10 mx-auto w-full">
+        <div class="mt-7 flex items-center justify-around lg:w-1/2 mx-auto">
+            <div>
+                <img class="w-2/3" src="./cool_kids_avatar.svg" alt="cool kids avatar">
+            </div>
+            <div class="text-blue-600 text-xl">
+                <p>Hi!</p>
+                <p>
+                    <span class="text-black">I'm </span>Azadeh.
+                </p>
+                <p class="text-black">
+                    I'm a User Experience Designer.
+                </p>
+            </div>
+        </div>
+        <div id="projects">
+            <div class="flex justify-center my-11 text-gray-800 font-semibold">
+                <a href="#projects">
+                    Explore my projects
+                </a>
+            </div>
+
+            <div
+                class="mb-7 mx-auto border-2 bg-white border-gray-200 w-[95%] lg:w-1/2 flex rounded-xl overflow-hidden">
+                <div class="bg-blue-300 w-1/4 relative flex justify-center items-center">
+                    <img class="w-full absolute -right-[20%]" src="./1.jpg" alt="cool kids avatar">
+                </div>
+                <div class="w-3/4 px-16 py-14">
+                    <p class="text-lg text-blue-900">Shop by Shape</p>
+                    <p class="text-sm mb-4 mt-2">Online Shopping</p>
+                    <button class="text-white text-xs px-3 py-2 rounded-md bg-blue-500">View Case Study</button>
+                </div>
+            </div>
+            <div
+                class="mb-7 mx-auto border-2 bg-white border-gray-200 w-[95%] lg:w-1/2 flex rounded-xl overflow-hidden">
+                <div class="bg-blue-300 w-1/4 relative flex justify-center items-center">
+
+                </div>
+                <div class="w-3/4 px-16 py-14">
+                    <p class="text-lg text-blue-900">Indexturant</p>
+                    <p class="text-sm mb-4 mt-2">coffee shop equipment responsive online shops</p>
+                    <button class="text-white text-xs px-3 py-2 rounded-md bg-blue-500">View Case Study</button>
+                </div>
+            </div>
+            <div
+                class="mb-7 mx-auto border-2 bg-white border-gray-200 w-[95%] lg:w-1/2 flex rounded-xl overflow-hidden">
+                <div class="bg-blue-300 w-1/4 relative flex justify-center items-center">
+
+                </div>
+                <div class="w-3/4 px-16 py-14">
+                    <p class="text-lg text-blue-900">The Clove Club</p>
+                    <p class="text-sm mb-4 mt-2">Redesign of restaurant web</p>
+                    <button class="text-white text-xs px-3 py-2 rounded-md bg-blue-500">View Case Study</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center my-14">
+            <i class="fa-brands fa-linkedin text-3xl"></i>
+            <i class="fa-solid fa-envelope text-3xl ml-5"></i>
+        </div>
+    </div>
+</body>
+
+</html>
